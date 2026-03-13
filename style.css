@@ -1,0 +1,462 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Playfair Display', serif;
+}
+
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+background:#f6d7d7;
+
+}
+
+
+
+
+section{
+
+width:100%;
+min-height:100vh;
+
+background-size:100% 100%;
+background-repeat:no-repeat;
+background-position:center;
+
+}
+
+.hero{
+
+background-image:url("img/background_01.png");
+
+}
+
+.bolos{
+
+background-image:url("img/background_02.png");
+
+}
+
+.ocasioes{
+
+background-image:url("img/background_03.png");
+
+}
+
+.contato{
+
+background-image:url("img/background_04.png");
+
+}
+
+button{
+
+transition:all 0.3s ease;
+
+}
+
+.btn1:hover{
+
+background:#a94c4c;
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+.btn2:hover{
+
+background:#5e351f;
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+button:active{
+
+transform:scale(0.95);
+
+}
+
+
+
+/* NAVBAR */
+
+.navbar{
+
+background:#f2caca;
+padding:20px;
+
+}
+
+.navbar ul{
+
+display:flex;
+justify-content:center;
+gap:40px;
+list-style:none;
+
+}
+
+.navbar a{
+
+text-decoration:none;
+padding:10px 25px;
+border:2px solid #c76a6a;
+border-radius:30px;
+color:#8c2f2f;
+
+}
+
+.navbar a{
+
+text-decoration:none;
+padding:10px 25px;
+border:2px solid #c76a6a;
+border-radius:30px;
+color:#8c2f2f;
+transition:all 0.3s ease;
+
+}
+
+/* HOVER */
+
+.navbar a:hover{
+
+background:#c76a6a;
+color:white;
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+
+/* HERO */
+
+.hero{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:5px 6%;
+position:relative;
+overflow:hidden;
+
+}
+
+.logo{
+
+margin-bottom:50px;
+margin-top: -50px;
+}
+
+.logo_name{
+width: 120%;
+
+}
+
+
+.hero-left{
+width:200%;
+
+}
+
+
+
+
+
+
+
+.hero-right{
+
+width:55%;
+display:flex;
+justify-content:flex-end;
+position:relative;
+
+}
+
+.hero-right img{
+
+width:650px;
+position:relative;
+right:-360px;
+
+}
+
+.hero-right img{
+    width:800px;
+    transform:translateX(150px);
+}
+
+
+
+
+
+.sub{
+
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.desc{
+    margin-bottom:30px;
+    color:#555;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+
+}
+
+.btn1{
+
+background:#c76a6a;
+border:none;
+padding:12px 25px;
+border-radius:20px;
+color:white;
+cursor:pointer;
+
+}
+
+.btn2{
+
+background:#7b4a2e;
+border:none;
+padding:12px 25px;
+border-radius:20px;
+color:white;
+cursor:pointer;
+
+}
+
+
+
+
+/* BOLOS */
+
+.bolos{
+padding:80px 10%;
+text-align:center;
+color:white;
+}
+
+
+.bolos-grid{
+
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:20px;
+/* flex-wrap:wrap; */
+
+}
+
+.bolo-card img{
+
+width:300px;
+height:300px;
+object-fit:cover;
+border-radius:50%;
+
+}
+
+.bolo-card img{
+
+transition:0.3s;
+
+}
+
+.bolo-card img:hover{
+
+transform:scale(1.08);
+
+}
+
+/* OCASIÕES */
+
+.ocasioes{
+
+/*  background:#f2e2c8; */
+padding:40px 10%;
+
+
+
+}
+
+.ocasiao{
+
+display:flex;
+align-items:center;
+gap:60px;
+background:#c76a6a;
+padding:25px 40px;
+border-radius:40px;
+margin-bottom:35px;
+color:white;
+font-size:18px;
+
+}
+
+
+.ocasiao img{
+width:60px;
+}
+
+.ocasiao img{
+transform:scale(2.2);
+margin-left: 25px;
+}
+
+
+.ocasiao img{
+
+transition:0.3s;
+
+}
+
+.ocasiao img:hover{
+
+transform:scale(2.5);
+
+}
+
+/* CONTATO */
+
+.contato{
+
+background:#6b3e26;
+color:white;
+padding:80px 10%;
+text-align:center;
+
+}
+
+
+
+.contatos{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:25px;
+margin-top:40px;
+
+}
+
+.contato-item{
+
+    display:flex;
+    align-items:center;
+    justify-content:left;
+
+    width:350px;
+    height:60px;
+
+    background:#c76a6a;
+    border-radius:30px;
+
+    gap:15px;
+
+}
+
+.contato-item img{
+
+width:60px;
+
+
+}
+
+.contato-item span{
+
+font-size:18px;
+
+}
+
+
+
+
+
+
+/* RESPONSIVO */
+@media(max-width:800px){
+
+
+.hero{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:4px 4%;
+position:relative;
+overflow:hidden;
+
+}
+
+
+.hero-left{
+width:50%;
+}
+
+.hero-right{
+
+width:50%;
+display:flex;
+justify-content:center;
+
+}
+
+.hero-right img{
+width:550px;
+position:relative;
+right:-20px;
+
+
+}
+
+.logo{
+
+width:50px;
+
+}
+
+.navbar ul{
+
+gap:10px;
+
+}
+
+.navbar a{
+
+padding:6px 14px;
+font-size:14px;
+
+}
+
+
+.bolos-grid{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:55px;
+}
+
+.bolo-card img{
+
+width:230px;
+height:230px;
+object-fit:cover;
+border-radius:50%;
+
+}
+
+
+
+}
