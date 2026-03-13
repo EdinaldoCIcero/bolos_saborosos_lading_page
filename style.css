@@ -78,9 +78,7 @@ box-shadow:0 5px 15px rgba(0,0,0,0.2);
 }
 
 button:active{
-
 transform:scale(0.95);
-
 }
 
 
@@ -185,7 +183,7 @@ position:relative;
 
 width:650px;
 position:relative;
-right:-360px;
+right:-310px;
 
 }
 
@@ -202,16 +200,22 @@ right:-360px;
 
     font-weight:bold;
     margin-bottom:10px;
+    color:#a32825;
+    font-size: 20px;
+
 }
 
 .desc{
     margin-bottom:30px;
-    color:#555;
+    color:#c95e64;
+    font-size: 17px;
+
 }
+
 
 .buttons{
     display:flex;
-    gap:20px;
+    gap:45px;
 
 }
 
