@@ -57,6 +57,10 @@ button{
 transition:all 0.3s ease;
 }
 
+button:active{
+transform:scale(0.95);
+}
+
 .btn1:hover{
 
 background:#a94c4c;
@@ -73,8 +77,59 @@ box-shadow:0 5px 15px rgba(0,0,0,0.2);
 
 }
 
-button:active{
+
+
+
+.btn-whatsapp{
+background:#02d12f;
+color:white;
+padding:12px 25px;
+border-radius:25px;
+text-decoration:none;
+font-weight:bold;
+}
+
+
+.btn-whatsapp:hover{
+
+background:#4fe36f;
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+.btn-whatsapp:active{
 transform:scale(0.95);
+}
+
+.btn-whatsapp{
+transition:all 0.3s ease;
+}
+
+
+
+
+.whatsapp-float{
+position:fixed;
+bottom:30px;
+right:30px;
+width:70px;
+height:70px;
+}
+
+.whatsapp-float img{
+width:100%;
+}
+
+
+
+.whatsapp-float:hover{
+transform:scale(1.6);
+
+}
+
+.whatsapp-float{
+transition:all 0.3s ease;
 }
 
 
@@ -358,11 +413,16 @@ width:60px;
 }
 
 .contato-item span{
-
 font-size:18px;
 
 }
 
+
+.contato-item:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
 
 
 
@@ -455,7 +515,7 @@ border-radius:20%;
 
 display:flex;
 align-items:center;
-gap:50px;
+gap:60px;
 background:#c76a6a;
 padding:10px 10px;
 border-radius:40px;
@@ -465,7 +525,9 @@ font-size:18px;
 
 }
 
-
+.ocasiao img{
+width:50px;
+}
 
 
 }
